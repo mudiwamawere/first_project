@@ -1,0 +1,20 @@
+h1 { font-size: 60pt;font-family: cursive; font:larger; 
+    text-align: center;  }
+
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36pt; }
+     
+p { font-size: 18pt; text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+}    
+button {height:fit-content;
+          width:fit-content ;
+          padding:25px;
+          margin:1%; 
+          border: 20% black ;    
+          background-color: #7300ff;
+          font-family:monospace;
+}
+h3{font-size: 36pt; font-family: monospace; }
+h4 {font-size: 26pt; font-family: monospace;font-style: italic;}
+
