@@ -1,32 +1,110 @@
+
+body{
+    min-height: 100vh;
+    background-color: #eb08aec2;
+    color: var(--text-color);
+}
 h1 {color: rgb(203, 24, 57); 
     font-size : 60pt;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospac;
     font-style: italic;
     text-align: center;
 }
     
  h2 {color: rgb(237, 192, 255);
-     font-size: 26pt ;
+     font-size: 30pt ;
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p {font-family: Arial, Helvetica, sans-serif;  font-style: oblique;
+p {font-family:Arial, Helvetica, sans-serif; font-style: oblique ;
     font-size: 22pt ;
 
 } 
 
 button {height:fit-content;
           width:fit-content ;
-          padding:25px;
-          margin:1%; 
+          padding:0.8cm 2cm;
           border: 1% black ;    
           background-color: #ccff00;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color:var(--btn-text-color);
+          border-radius: 4px;
+          font: inherit;
+          text-transform: uppercase;
+          font-weight: 500;
+          cursor: pointer;
 }
+.common-btn{
+    border: 1px solid var(--btn-border-color);
 
-h3 {color: rgb(237, 192, 255);
-    font-size: 20pt; font-family: Arial, Helvetica, sans-serif; 
-    font-style:oblique;
+
+}
+h3 {color: rgb(237, 192, 255); font-size: 20pt; font-family: Arial, Helvetica, sans-serif; font-style:oblique;
+
 }
 h4 {font-size: 26pt; font-style: italic;}
+ 
+:root{
+    --base-color: white;
+    --base-variant: rgb(235, 232, 232); 
+    --text-color: black;
+    --secondary-text: rgb(41, 40, 40);
+    --priamry-color: grey; 
+    --common-btn-colour: pink; 
+    --btn-border-color: blue;
+    --btn-text-color:#0071ff;
+
+
+}
+
+.dark-mode{
+  --base-color: rgb(33, 32, 32);
+    --base-variant: rgb(235, 232, 232); 
+    --text-color: rgb(249, 246, 246);
+    --secondary-text: rgb(199, 194, 194);
+    --priamry-color: rgb(75, 74, 74); 
+    --common-btn-colour: pink; 
+    --btn-border-color: blue;
+    --btn-text-color:#0071ff;
+  
+}
+
+#switch-theme{ 
+    height:50px;
+     width:50px ; 
+     padding:0 ;  
+     border-radius: 55%; 
+     background-color: var(--base-variant);
+     margin-top: 15px;
+
+}
+
+#switch-theme i.fa-moon {
+    display: none; 
+}
+#switch-theme i.fa-sun {
+    
+ display: block;
+}
+.dark-mode #switch-theme i.fa-sun{
+ display: none;
+
+}
+.dark-mode #switch-theme i.fa-moon { 
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
